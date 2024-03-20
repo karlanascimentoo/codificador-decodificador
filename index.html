@@ -1,0 +1,52 @@
+<<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Codificador de texto</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="reset.css.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>
+                <a href="index.html" title="Home">     
+                </a>
+            </h1>     
+        </header>
+        <main class="main">
+            <section>
+                <textarea class="input-texto" cols="40" rows="9" placeholder="Digite seu texto..."></textarea>
+
+                <div class="informacao">
+                    <ul class="mensagens-erro"></ul>
+                </div>
+
+                <div class="botoes">
+                    <button type="button" class="btn-codificar">Codificar</button>
+                    <button type="button" class="btn-decodificar">Decodificar</button>
+                </div>
+            </section>
+
+            <section class="container">
+                <textarea class="resultado" cols="10" rows="1" placeholder=" " readonly></textarea>
+                <button type="button" class="invisivel btn-copiar">Copiar</button>
+            </section>
+        </main>
+
+        <footer>
+            </div>
+            
+            <div class="rodape">
+                <p>Desenvolvido por Karla Nascimento..</p>
+            </div>
+        </footer>
+
+        <script src="app.js"></script>
+    </body>
+</html>
